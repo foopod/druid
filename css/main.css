@@ -478,3 +478,12 @@ p.paragraph {
 h3, p{
     text-align: center;
 }
+
+@media (max-width: 500px) {
+    .sideImage{
+        position: absolute;
+        right: -310px;
+        top: -50px;
+        witdh:500px;
+    }
+}
