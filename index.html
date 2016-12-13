@@ -267,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         function updateAge(){
             var now = new Date();
             var timeOffset = (now.getTime() - dob.getTime());
-            timeOffset = numberWithCommas(Math.round(timeOffset/60000/365));
+            timeOffset = numberWithCommas(Math.round(timeOffset/1000/60/60));
             document.getElementById("hoursOnEarth").innerHTML = timeOffset;
         }
         
